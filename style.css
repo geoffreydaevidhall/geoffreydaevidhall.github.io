@@ -25,6 +25,12 @@ h1 {
 	font: 46px Garamond, "Times New Roman", Times, serif;
 }
 
+img {
+  width: 30%;
+  height: auto;
+  float: right;
+}
+
 h2 {
 	font-weight: 600;
 	margin-left: 0px;
