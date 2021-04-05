@@ -1,8 +1,11 @@
 div {
-  width: 630px;
-  margin: auto;
-  padding-top: 60px;
-  font-size: 20px;
+	margin-left: 320px;
+	max-width: 34em;
+}
+
+div#pic {
+	float: left;
+	margin-left: 160px;
 }
 
 
