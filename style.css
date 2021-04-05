@@ -17,11 +17,12 @@ div#email {
 	margin-bottom: 30px;
 }
 
-div#abstract {
-	display: none;
-	margin-left: 145
-	max-width: 34em;
-}
+<style type="text/css">
+<!--
+ .abstract { margin-left: 140px; }
+-->
+</style>
+
 p { 
     margin-top: 10px;
 	margin-left: 0px;
