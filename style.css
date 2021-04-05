@@ -2,6 +2,10 @@ div {
 	margin-left: 220px;
 	max-width: 34em;
 }
+div {
+	margin-left: 50px;
+	max-width: 34em;
+}
 
 div#pic {
 	float: left;
