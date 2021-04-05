@@ -17,6 +17,11 @@ div#email {
 	margin-bottom: 30px;
 }
 
+div#abstract {
+	display: none;
+	margin-left: 200
+	max-width: 44em;
+}
 p { 
     margin-top: 10px;
 	margin-left: 0px;
