@@ -6,7 +6,7 @@ div {
 div#pic {
 	float: left;
 	margin-left: 120px;
-	width: 200px;
+	padding: 10px;
 }
 
 
