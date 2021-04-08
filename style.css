@@ -17,11 +17,10 @@ div#email {
 	margin-bottom: 30px;
 }
 
-<style type="text/css">
-<!--
- .abstract { margin-left: 140px; }
--->
-</style>
+.abstract { margin-left: 140px; 
+
+}
+
 
 p { 
     margin-top: 10px;
