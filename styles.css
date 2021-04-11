@@ -100,12 +100,13 @@ a:hover {
     font-variant-caps: all-small-caps;
     font-family: sans-serif;
   }
+ .menu a.active{
+    color: black;
+}
   .menu a:hover{
       color:black;
   }
- .menu a:active{
-      color: black;      
-  }
+
   .picture {
 	float: left;
 	margin-top: 0px;
