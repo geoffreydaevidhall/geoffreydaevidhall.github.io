@@ -73,7 +73,7 @@ p{
     font-size: 12px;
 }
 
-a, a:visited {
+a, a:visited a:active{
     color: #3387a2;
 	text-decoration: none;
 }
