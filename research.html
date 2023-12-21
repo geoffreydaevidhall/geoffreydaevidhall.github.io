@@ -1,65 +1,88 @@
 <!DOCTYPE html>
-<html>
-    <!--Head-->
-    <head>
-        <link rel="icon" type="image/png" href="favicon.ico">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css" type="text/css">
-        <meta name="viewport" content="width=device-width">
-        <title>Geoffrey Hall</title>
-    </head>
-    <!--End of Head-->
-    <body>
-        <!--Body-->
-        <div class="content-wrapper">
-        <div class="page"> 
-            <div class="title"><!--Header-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Geoffrey Hall</title>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <div class="page">
+            <!-- Header -->
+            <header class="title">
                 <h1>Geoffrey Hall</h1>
+            </header>
+
+            <!-- Contact Info -->
+            <div class="email">
+                ghall4[at]alumni[dot]nd[dot]edu
             </div>
-            <div class="email">ghall4[at]alumni[dot]nd[dot]edu</div>
-            <div class="menu"> 
+
+            <!-- Navigation Menu -->
+            <nav class="menu">
                 <a href="https://geoffreydaevidhall.github.io/">Home</a>
                 <a class="active" href="research.html">Research</a>
                 <a href="teaching.html">Teaching</a>
-            </div>
-            <!--End of Header-->
-            <div id="colA"><!--Main Column-->
-                <div class="publications"> 
-                    <h2>Publications</h2><!--Publications-->
-                    <ul>
-                        <li> <a href="https://www.tandfonline.com/doi/abs/10.1080/00048402.2022.2036207#:~:text=Conclusion-,ABSTRACT,view%20that%20consciousness%20is%20precise." target=_"blank"> Is Consciousness Vague?</a>
-                            <br>
-                            <em>Australasian Journal of Philosophy</em>, 101 (3): 670-684 (2023). 
-                            <br>
-                            [<a href="javascript:void(0);" onclick=" return toggleMe( 'VC') ">Abstract</a> : <a href="Borderline Consciousness (Revisions).pdf" target="_blank">Preprint</a>]</li>
-                        <div class="abstract">
-                            <p align="justify" id="VC" style="display:none">This paper defends the view that 'phenomenal consciousness' could have borderline cases. There are a number argument in the literature that purport to establish the opposite view, that 'phenomenal cosciousness' is precise. I argue that these arguments depend on principles that are inconsistent with plausible, and somewhat standard, principles about borderline cases.</p>
-                        </div>
-                        <li><a href="https://link.springer.com/article/10.1007/s10670-021-00452-3" target="_blank">Naturalness is Not an Aim of Belief</a>
-                            <br>
-                            <em>Erkenntnis</em>, 88: 2277–2290 (2023). 
-                            <br>
-                            [<a href="javascript:void(0);" onclick="return toggleMe('NAB') ">Abstract</a> : <a href="NAB.pdf" target="_blank">Preprint</a>]</li>
-                            <div class="abstract">
-                                <p align="justify" id="NAB" style="display:none">Recently several authors have argued that structure or joint-carvingness is an aim of belief. This paper argues that this is false. In particular, I argue that our theorizing about naturalness is not itself guided by naturalness</p>
-                            </div>
-                        </li>
-                        <li><a href="https://link.springer.com/article/10.1007/s11229-021-03277-3" target="_blank">Phenomenal Properties are Luminous Properties</a>
-                            <br>
-                            <em>Synthese</em>, 199: 11001–11022 (2021).
-                            <br>
-                        [<a href="javascript:void(0);" onclick="return toggleMe('Phenomenal') ">Abstract</a> : <a href="Phenomenal Properties are Luminous (Final Revision).pdf" target="_blank">Preprint</a>]</li>
-                        <div class="abstract">
-                            <p align="justify" id="Phenomenal" style="display:none">This paper defends the view that phenomenal properties are (consistent) luminous properties. On this view, if there is something that it is like to have some property, in the relevant sense, then it is a property one must always know oneself to have when one has it.</p>
-                        </div>
+            </nav>
 
-                        </li>
-                        <li><a href="https://journals.publishing.umich.edu/ergo/article/id/2245/" target=_"blank">Unity and Application</a>
-                            <br>
-                            <em>Ergo</em>, 8: 44 (2021).
-                            <br>
-                        [<a href="javascript:void(0);" onclick =" return toggleMe( 'UA') ">Abstract</a> : <a href="Unity and Application (Preprint).pdf" target="_blank">Preprint</a>]
-                        </li>
+            <!-- Main Content -->
+            <div class="columns">
+                <!-- Main Column -->
+                <div class="main-column">
+                    <!-- Publications -->
+                    <div class="publications">
+                        <h2>Publications</h2>
+                        <ul>
+                            <li>
+                                <a href="https://www.tandfonline.com/doi/abs/10.1080/00048402.2022.2036207#:~:text=Conclusion-,ABSTRACT,view%20that%20consciousness%20is%20precise."
+                                    target="_blank">Is Consciousness Vague?</a>
+                                <br>
+                                <em>Australasian Journal of Philosophy</em>, 101 (3): 670-684 (2023).
+                                <br>
+                                [<a href="javascript:void(0);" onclick="return toggleMe('VC')">Abstract</a> :
+                                <a href="Borderline Consciousness (Revisions).pdf" target="_blank">Preprint</a>]
+                                <div class="abstract" id="VC" style="display:none">
+                                    <p align="justify">This paper defends the view that 'phenomenal consciousness' could have borderline cases. There are a number
+                                        argument in the literature that purport to establish the opposite view, that 'phenomenal consciousness' is
+                                        precise. I argue that these arguments depend on principles that are inconsistent with plausible, and somewhat
+                                        standard, principles about borderline cases.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://link.springer.com/article/10.1007/s10670-021-00452-3"
+                                    target="_blank">Naturalness is Not an Aim of Belief</a>
+                                <br>
+                                <em>Erkenntnis</em>, 88: 2277–2290 (2023).
+                                <br>
+                                [<a href="javascript:void(0);" onclick="return toggleMe('NAB')">Abstract</a> :
+                                <a href="NAB.pdf" target="_blank">Preprint</a>]
+                                <div class="abstract" id="NAB" style="display:none">
+                                    <p align="justify">Recently several authors have argued that structure or joint-carvingness is an aim of belief. This paper argues that this is false. In particular, I argue that our theorizing about naturalness is not itself guided by naturalness.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://link.springer.com/article/10.1007/s11229-021-03277-3"
+                                    target="_blank">Phenomenal Properties are Luminous Properties</a>
+                                <br>
+                                <em>Synthese</em>, 199: 11001–11022 (2021).
+                                <br>
+                                [<a href="javascript:void(0);" onclick="return toggleMe('Phenomenal')">Abstract</a> :
+                                <a href="NAB.pdf" target="_blank">Preprint</a>]
+                                <div class="abstract" id="Phenomenal" style="display:none">
+                                    <p align="justify">This paper defends the view that phenomenal properties are (consistent) luminous properties. On this view, if there is something that it is like to have some property, in the relevant sense, then it is a property one must always know oneself to have when one has it.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="https://journals.publishing.umich.edu/ergo/article/id/2245/" target="_blank">Unity and Application</a>
+                                <br>
+                                <em>Ergo</em>, 8: 44 (2021).
+                                <br>
+                        [<a href="javascript:void(0);" onclick =" return toggleMe( 'UA') ">Abstract</a> : 
+                        <a href="Unity and Application (Preprint).pdf" target="_blank">Preprint</a>]
                         <div class="abstract">
                             <p align="justify" id="UA" style="display:none">Propositions represent the entities from which they are formed. This fact has puzzled philosophers and some have put forward radical proposals in order to explain it. This paper develops a primivitist account of the representational properties of propositions that centers on the operation of application. As we will see, this theory wins out over its competitors on grounds of strength, systematicity and unifying power.</p>
                         </div>
@@ -75,93 +98,103 @@
                             The principle of sufficient reason threatens modal collapse. Some have suggested that by appealing to the indefinite extensibility of contingent truth, the threat is neutralized. This paper argues that this is not so. If the indefinite extensibility of contingent truth is developed in an analogous fashion to the most promising models of the indefinite extensibility of the concept set, plausible principles permit the derivation of modal collapse.</p>
                         </div>
                     </ul>
-                    <!--End of Publications-->
+                    </div>
+                   
+                    <!-- End of Publications -->
+
+                    <!-- Under Review -->
+                    <div class="review">
+                        <h2>Under Review</h2>
+                        <ul>
+                            <li>
+                                Symmetries and representational content
+                                <br>
+                                [<a href="javascript:void(0);" onclick="return toggleMe('SRC')">Abstract</a>]
+                                <div class="abstract" id="SRC" style="display:none">
+                                    <p align="justify">It is often said in physics that if two models of a theory are related by a symmetry, then the two models provide (or
+                                        <em>could</em> provide) two different representations of the very same situation, alike the case of two maps of
+                                        different color and size for the very same city. It is also said that the situations represented by two models
+                                        of a theory are indiscernible in some ways when the models in question are related by a symmetry of the theory,
+                                        just like the situation in the interior of the cabin of a train when the train is at rest in the station is
+                                        empirically indiscernible from the situation in the interior when the train is moving uniformly (in classical
+                                        mechanics, these two situations are represented by two models related by a boost). In recent years, philosophers
+                                        of physics have focused a lot of attention on developing various principles that aim to elucidate these and similar
+                                        remarks on symmetries, models, physical equivalence, and representation that are widespread in physics practice. The
+                                        goal of the current article is to provide a critical review of these principles, and suggest a new framework for
+                                        thinking about these kinds of questions. One important upshot of the paper is that questions of indiscernibility,
+                                        and questions of the representational capacity of models, must be distinguished from one another.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of Under Review -->
+
+                    <!-- In Progress -->
+                    <div class="in-progress">
+                        <h2>In Preparation</h2>
+                        <ul>
+                            <li>
+                                A paper on the metaphysics of experience
+                                <br>
+                                [<a href="javascript:void(0);" onclick="return toggleMe('RU')">Abstract</a>]
+                                <div class="abstract" id="RU" style="display:none">
+                                    <p align="justify">In this paper I argue that there are two theories concerning the metaphysics of experience that are commonly adopted in
+                                        the literature such that one exhibits surplus structure with respect to the other in much the same way that Newtonian
+                                        theories of spacetime exhibit surplus structure with respect to Galilean theories of spacetime. I then argue that we
+                                        ought to draw similar conclusions in this case and reject the theory of experience exhibiting surplus structure.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of In Progress -->
                 </div>
-                <div class="review"><!--Under Review-->
-                    <h2>Under Review</h2>
-                    <ul>
-                        <li>Symmetries and representational content<br>
-                            [<a href ="javascript:void(0);" onclick="return toggleMe( 'SRC') ">Abstract</a>]</li>
-                        <div class="abstract">
-                            <p align="justify" id="SRC" style="display:none">
-                                It is often said in physics that if two models of a theory are related by a  symmetry, then the two models provide 
-                                (or <em>could</em> provide) two different representations of the very same situation, alike the case of two maps of 
-                                different color and size for the very same city. It is also said that the situations represented by two models of a 
-                                theory are indiscernible in some ways when the models in question are related by a symmetry of the theory, just like 
-                                the situation in the interior of the cabin of a train when the train is at rest in the station is empirically indiscernible 
-                                from the situation in the interior when the train is moving uniformly (in classical mechanics, these two situations are represented 
-                                by two models related by a boost). In recent years, philosophers of physics have focused a lot of attention in developing various principles 
-                                that aim to elucidate these and similar remarks on  symmetries, models, physical equivalence,  and representation that are widespread in 
-                                physics practice. The goal of the current article is to provide a critical review of these principles, and suggest a new framework for 
-                                thinking about these kinds of questions. One important upshot of the paper is that questions of indiscernibility, and questions of the 
-                                representational capacity of models, must be distinguished from one another.
-                            </p>
-                    </li>
-                    </ul>
+                <!-- End of Main Column -->
                 </div>
-                <!--End of Under Review-->
-                <div class="in progress"><!--In Progress-->
-                    <h2>In Preparation</h2>
-                    <ul>
-                        <li>A paper on the metaphysics of experience
-                            <br>
-                            [<a href="javascript:void(0);" onclick="return toggleMe( 'RU') ">Abstract</a>]</li>
-                        <div class="abstract">
-                            <p align="justify" id="RU" style="display:none">
-                                In this paper I argue that there are two theories concerning the metaphysics of experience that are commonly 
-                                adopted in the literature such that one exhibits surplus structure with respect to the other in much the same way that 
-                                Newtonian theories of spacetime exhibits surplus structure with respect to Galilean theories os spacetime. I then argue that 
-                                we ought to draw similar conclusions in this case and reject the theory of experience exhibiting surplus structure.
-                            </p>
-                        </div>
-                        </li>
-                        <li>Propositional and objectual attitudes
-                            <br>
-                            [<a href="javascript:void(0);" onclick="return toggleMe( 'DP' )">Abstract</a>]</li>
-                        <div class="abstract">
-                            <p align="justify" id="DP" style="display:none">This paper clarifies and defends propositionalism: the thesis that all attitudes are definable in terms of propositional attitudes.</p>
-                        </div>
-                        </li>
-                    </ul>
+                <!-- Second Column -->
+                <div class="second-column">
+                    <h2>Research</h2>
+                    <!-- Research Description -->
+                    <div class="aboutme">
+                        <p align="justify">I have a number of different research interests in philosophy. A good deal of my work has been on the metaphysics
+                            of conscious experience and the ontology and grain of propositions, properties and relations. I'm specifically
+                            interested in exploring the consequences various metaphysical hypotheses in these areas have on other areas of
+                            philosophy, such as epistemology, vagueness and action theory. Recently I have been working on a couple of papers
+                            about the metaphysics of color which I hope to bring to finishing stages soon. Below are some brief notes on
+                            maths, philosophy of logic and philosophical logic.</p>
+                    </div>
+                    <!-- End of Research Description -->
+
+                    <h2>Notes and No Longer In Progress</h2>
+                    <!-- Notes -->
+                    <div class="notes">
+                        <ul>
+                            <li><a href="ML Notes.pdf" target="_blank">Modal Logic Notes</a></li>
+                            <li><a href="Lawvere's Fixed Point Theorem.pdf" target="_blank">Lawvere's fixed point theorem</a></li>
+                            <li><a href="TTOF.pdf" target="_blank">Logical Form</a></li>
+                            <li><a href="Event Ordering Semantics and the Noetherian Constraint.pdf" target="_blank">A Note on Event Ordering Semantics and the Noetherian Constraint</a></li>
+                            <li><a href="Booleanism and Belief.pdf" target="_blank">Booleanism And Belief</a></li>
+                        </ul>
+                    </div>
+                    <!-- End of Notes -->
                 </div>
-                <!--End of In Progress-->
+                <!-- End of Second Column -->
             </div>
-            <!--End of Main Column-->
-            <div id="colB"><!--Second Column-->
-                <h2>Research</h2><!--Research Description-->
-                <div class="aboutme"> 
-                    <p align="justify"> I have a number of different research interests in philosophy. A good deal of my work has been on the metaphysics of conscious experience and the ontology and grain of propositions, properties and relations. I'm specifically interested in exploring the consequences various metaphysical hypotheses in these areas have on other areas of philosophy, such as epistemology, vagueness and action theory. Recently I have been working on a couple of papers about the metaphysics of color which I hope to bring to finishing stages soon. Below are some brief notes on maths, philosophy of logic and philosophical logic.
-                    </p>
-                </div>
-                <!--End of Research Description-->
-                <h2>Notes and No Longer In Progress</h2><!--Notes-->
-                <div class="notes">
-                    <ul>
-                        <li><a href="ML Notes.pdf" target="_blank">Modal Logic Notes</a></li>
-                        <li> <a href="Lawvere's Fixed Point Theorem.pdf" target="_blank">Lawvere's fixed point theorem</a></li>
-                        <li> <a href="TTOF.pdf" target="_blank">Logical Form</a></li>
-                        <li> <a href="Event Ordering Semantics and the Noetherian Constraint.pdf" target="_blank">A Note on Event Ordering Semantics and the Noetherian Constraint</a></li>
-                        <li><a href="Booleanism and Belief.pdf" target="_blank">Booleanism And Belief</a></li>
-                    </ul>
-                </div>
-                <!--End of Notes-->
-            </div>
-            <!--End of Second Column-->
+            <!-- End of Columns -->
         </div>
-    </div>
-    </body><!--End of Body-->
-    <!--Javascript-->
+
+    <!-- Javascript -->
     <script type="text/javascript">
-        function toggleMe(a){
-        var e=document.getElementById(a);
-        if(!e)return true;
-        if(e.style.display=="none"){
-        e.style.display="block"
-        }
-        else{
-        e.style.display="none"
-        }
-        return true;
+        function toggleMe(a) {
+            var e = document.getElementById(a);
+            if (!e) return true;
+            if (e.style.display == "none") {
+                e.style.display = "block"
+            } else {
+                e.style.display = "none"
+            }
+            return true;
         }
     </script>
+</body>
+
 </html>
