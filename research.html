@@ -190,16 +190,14 @@
 
     <!-- Javascript -->
     <script type="text/javascript">
-        function toggleMe(a) {
-            var e = document.getElementById(a);
-            if (!e) return true;
-            if (e.style.display == "none") {
-                e.style.display = "block"
-            } else {
-                e.style.display = "none"
-            }
+        function toggleMe(id) {
+            var element = document.getElementById(id);
+            if (!element) return false; 
+
+            element.style.display = (element.style.display === "none") ? "block" : "none";
             return true;
         }
+
     </script>
 </body>
 
